@@ -1,0 +1,19 @@
+{
+  "name": "shifu",
+  "version": "1.0.0",
+  "description": "A Discord bot",
+  "main": "./src/main.js",
+  "repository": "https://github.com/daltoncodes/Shifu.git",
+  "author": "Dalton <daltoncodes@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev":"nodemon ./src/main.js"
+  },
+  "dependencies": {
+    "discord-akairo": "^8.1.0",
+    "discord.js": "^12.4.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.10.15"
+  }
+}
